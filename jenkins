@@ -1,0 +1,25 @@
+Jenkinfiles
+
+agent {
+      Build application  
+}
+
+agent {
+    Test application
+}
+
+agent {
+    Run application
+}
+
+agent {
+    Sonar Cube Analysis
+}
+
+agent {
+    Push to artifactory
+}
+
+agent {
+    Deploy to Kubernetes Managed services
+}
